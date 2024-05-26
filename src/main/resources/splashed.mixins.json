@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.niksne.splashed.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ArrowMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
