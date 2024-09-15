@@ -1,42 +1,39 @@
 {
-  "schemaVersion": 1,
-  "id": "splashed",
-  "version": "${version}",
-
-  "name": "Splashed!",
-  "description": "This mod makes arrows of splashing useful!",
-  "authors": ["NikSne"],
-  "contact": {
-    "homepage": "https://niksne.ru",
-    "sources": "https://github.com/NikSneMC/splashed",
-    "email": "contact@niksne.ru",
-    "issues": "https://github.com/NikSneMC/splashed/issues"
-  },
-
-  "license": "AGPL-3.0",
-  "icon": "assets/splashed/icon.png",
-
-  "environment": "*",
-  "entrypoints": {},
-  "mixins": [
-    "splashed.mixins.json"
-  ],
-
-  "depends": {
-    "fabricloader": ">=${loader_version}",
-    "minecraft": ">=${minecraft_version} <=${max_minecraft_version}",
-    "java": ">=21"
-  },
-
-  "custom": {
-    "modmenu": {
-      "links": {
-        "Modrinth": "https://modrinth.com/mod/splashed",
-        "Discord": "https://discord.com/invite/hGxQgrYTD3",
-        "Boosty": "https://boosty.to/niksne",
-        "Support me": "https://www.donationalerts.com/r/niksne"
-      },
-      "update_checker": true
+    "schemaVersion": 1,
+    "id": "splashed",
+    "version": "${version}",
+    "name": "Splashed!",
+    "description": "This mod makes arrows of splashing useful!",
+    "authors": [
+        "NikSne"
+    ],
+    "contact": {
+        "homepage": "https://niksne.ru",
+        "sources": "https://github.com/NikSneMC/splashed",
+        "email": "contact@niksne.ru",
+        "issues": "https://github.com/NikSneMC/splashed/issues"
+    },
+    "license": "AGPL-3.0",
+    "icon": "assets/splashed/icon.png",
+    "environment": "*",
+    "entrypoints": {},
+    "mixins": [
+        "splashed.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "minecraft": ">=${minecraft_version}",
+        "java": ">=21"
+    },
+    "custom": {
+        "modmenu": {
+            "links": {
+                "Modrinth": "https://modrinth.com/mod/splashed",
+                "Discord": "https://discord.com/invite/hGxQgrYTD3",
+                "Boosty": "https://boosty.to/niksne",
+                "Support me": "https://www.donationalerts.com/r/niksne"
+            },
+            "update_checker": true
+        }
     }
-  }
 }

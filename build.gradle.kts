@@ -1,6 +1,5 @@
 plugins {
     id("fabric-loom")
-    `maven-publish`
     java
 }
 
@@ -35,10 +34,9 @@ tasks {
         archiveBaseName.set("Splashed!")
         archiveClassifier.set("")
         archiveVersion.set(String.format(
-            "%s_%s-%s",
+            "%s_%s",
             version,
             minecraft_version,
-            max_minecraft_version
         ))
     }
 }
